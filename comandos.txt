@@ -1,0 +1,40 @@
+Comandos usados en este trabajo práctico: 
+
+git branch -m master main
+touch main.js
+touch index.html
+git add .
+git commit -m"commit 01 de MatiasBenitez"
+git status
+clear
+git branch
+git branch feature
+git branch
+git checkout feature
+clear
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd SeguridadInformatica
+cd.. SeguridadInformatica
+cd..
+cd ..
+cd SeguridadInformatica
+touch resumen.txt
+cd ..
+cd Software
+touch resumen.txt
+git add .
+git commit -m"commit 02 de MatiasBenitez"
+cd ..
+git add .
+git commit -m"commit 03 de MatiasBenitez"
+git push origin feature
+git checkout main
+clear
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comandos.txt
+history
